@@ -156,7 +156,7 @@
   }
   .galeri__button::after {
     content: "";
-    background:rgb(168, 218, 22); /* color de fondo hover */
+    background:rgb(168, 218, 22); 
     position: absolute;
     z-index: -1;
     padding: 16px 20px;

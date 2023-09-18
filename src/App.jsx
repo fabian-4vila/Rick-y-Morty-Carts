@@ -12,19 +12,19 @@ function App() {
   const [location, getLocation, hasError] = useFetch(url);
   const [currentPage, setCurrentPage] = useState(1);
   const residentsPerPage = 8;
-  const [isLoading, setIsLoading] = useState(true); // Estado para la página de carga
+  const [isLoading, setIsLoading] = useState(true); 
 
   useEffect(() => {
     getLocation();
   }, [inputValue]);
 
   useEffect(() => {
-    // Mostrar la página de carga mientras se carga la información
+    
     setIsLoading(true);
   }, [inputValue]);
 
   useEffect(() => {
-    // Ocultar la página de carga una vez que la información esté lista
+    
     setIsLoading(false);
   }, [location]);
 
@@ -50,11 +50,10 @@ function App() {
 
   return (
     <div className="galeri">
-  {/* Mostrar el mensaje de error si hasError es true */}
   {hasError ? (
     <p className="galeri__p">❌ Hey! you must provide an id from 1 to 126 😥</p>
   ) : (
-    // Mostrar la página de carga si isLoading es true
+    
     isLoading ? (
       <div className="galeri__loading">
         <h1 className='galeri__title'>Loading...</h1>
