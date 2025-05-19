@@ -1,8 +1,73 @@
-# React + Vite
+# Rick and Morty Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web desarrollada con **React** que muestra tarjetas de personajes utilizando la API pública de **Rick and Morty**.
 
-Currently, two official plugins are available:
+## 🚀 Pagina
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Puedes ver una versión en vivo aquí: [https://tupagina.com](https://tupagina.com)
+
+
+## 🧠 Características
+
+- Lista de personajes obtenida desde la API de Rick and Morty.
+- Tarjetas con información como:
+  - Imagen
+  - Nombre
+  - Estado (Vivo, Muerto, Desconocido)
+  - Especie
+  - Género
+  - Ubicación
+- Buscador por nombre
+- Paginación
+
+## 🛠️ Tecnologías utilizadas
+
+- [React](https://reactjs.org/)
+- [Axios](https://axios-http.com/) – para consumir la API
+- [Rick and Morty API](https://rickandmortyapi.com/)
+- CSS
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/tuusuario/rick-and-morty-cards.git
+cd rick-and-morty-cards
+```
+Instala las dependencias:
+
+```bash
+npm install
+```
+Inicia el proyecto:
+```bash
+Copiar
+Editar
+npm run dev
+```
+```bash
+📁 Estructura del proyecto
+pgsql
+Copiar
+Editar
+rick-and-morty-cards/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── CharacterCard.jsx
+│   ├── pages/
+│   │   └── Home.jsx
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles/
+│       └── main.css
+├── package.json
+└── README.md
+```
+## 🔗 API utilizada
+Base URL: https://rickandmortyapi.com/api/
+
+Ejemplo de endpoint: https://rickandmortyapi.com/api/character
+
+
