@@ -4,21 +4,21 @@ Una aplicación web desarrollada con **React** que muestra tarjetas de personaje
 
 ## 🚀 Pagina
 
-Puedes ver una versión en vivo aquí: [https://tupagina.com](https://tupagina.com)
+Puedes ver una versión en vivo aquí: [https://rick-y-morty-by-fabian-avila.netlify.app](https://rick-y-morty-by-fabian-avila.netlify.app)
 
 
 ## 🧠 Características
 
 - Lista de personajes obtenida desde la API de Rick and Morty.
 - Tarjetas con información como:
-  - Imagen
-  - Nombre
-  - Estado (Vivo, Muerto, Desconocido)
-  - Especie
-  - Género
-  - Ubicación
-- Buscador por nombre
-- Paginación
+  
+   - Imagen
+   - Nombre
+   - Estado (Vivo, Muerto, Desconocido)
+   - Especie
+   - Género
+   - Ubicación
+   - Paginación
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -33,6 +33,7 @@ Puedes ver una versión en vivo aquí: [https://tupagina.com](https://tupagina.c
 
 ```bash
 git clone https://github.com/tuusuario/rick-and-morty-cards.git
+
 cd rick-and-morty-cards
 ```
 Instala las dependencias:
@@ -42,15 +43,11 @@ npm install
 ```
 Inicia el proyecto:
 ```bash
-Copiar
-Editar
 npm run dev
 ```
 ```bash
 📁 Estructura del proyecto
 pgsql
-Copiar
-Editar
 rick-and-morty-cards/
 ├── public/
 ├── src/
@@ -66,6 +63,7 @@ rick-and-morty-cards/
 └── README.md
 ```
 ## 🔗 API utilizada
+
 Base URL: https://rickandmortyapi.com/api/
 
 Ejemplo de endpoint: https://rickandmortyapi.com/api/character
