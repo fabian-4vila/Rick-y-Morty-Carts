@@ -55,14 +55,14 @@ pgsql
 Rick-y-Morty-Cards/
 ├── public/
 ├── src/
-│   ├──assets
-│   ├──components
-│   ├──hooks
-│   ├──utils
-│   ├──App.css
-│   ├──App.jsx
-│   ├──index.css
-│   ├──main.jsx
+│   ├── assets
+│   ├── components
+│   ├── hooks
+│   ├── utils
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
 ├── .eslintrc.cjs
 ├── .gitignore
 ├── index.html
