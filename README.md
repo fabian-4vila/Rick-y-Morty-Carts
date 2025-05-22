@@ -63,9 +63,9 @@ Rick-y-Morty-Cards/
 │   │   ├── Pagination.jsx
 │   │   └── ResidentCard.jsx
 │   ├── hooks/
-│   │   └──useFetch.js
+│   │   └── useFetch.js
 │   ├── utils/
-│   │   └──getRandomNumber.js
+│   │   └── getRandomNumber.js
 │   ├── App.css
 │   ├── App.jsx
 │   ├── index.css
