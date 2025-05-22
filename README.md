@@ -52,18 +52,23 @@ npm start
 ## 📁 Estructura del proyecto
 ```bash
 pgsql
-rick-and-morty-cards/
+Rick-y-Morty-Cards/
 ├── public/
 ├── src/
-│   ├── components/
-│   │   └── CharacterCard.jsx
-│   ├── pages/
-│   │   └── Home.jsx
-│   ├── App.jsx
-│   ├── index.js
-│   └── styles/
-│       └── main.css
+│   ├──assets
+│   ├──components
+│   ├──hooks
+│   ├──utils
+│   ├──App.css
+│   ├──App.jsx
+│   ├──index.css
+│   ├──main.jsx
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── package-lock.json
 ├── package.json
+├── vite.config.js
 └── README.md
 ```
 ## 🔗 API utilizada
