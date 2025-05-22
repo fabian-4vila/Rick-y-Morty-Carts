@@ -29,24 +29,28 @@ Puedes ver una versión en vivo aquí: [https://rick-y-morty-by-fabian-avila.net
 
 ## 📦 Instalación
 
-1. Clona el repositorio:
+### Clona el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/rick-and-morty-cards.git
+git clone https://github.com/fabian-4vila/Rick-y-Morty-Carts.git
 
-cd rick-and-morty-cards
+cd Rick-y-Morty-Carts
 ```
-Instala las dependencias:
+### Instala las dependencias:
 
 ```bash
 npm install
 ```
-Inicia el proyecto:
+### Inicia el proyecto dev:
 ```bash
 npm run dev
 ```
+### Inicia el proyecto:
 ```bash
-📁 Estructura del proyecto
+npm start
+```
+## 📁 Estructura del proyecto
+```bash
 pgsql
 rick-and-morty-cards/
 ├── public/
