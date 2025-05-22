@@ -54,11 +54,12 @@ npm start
 pgsql
 Rick-y-Morty-Cards/
 ├── public/
+│   └──Untitled.png
 ├── src/
-│   ├── assets
-│   ├── components
-│   ├── hooks
-│   ├── utils
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── utils/
 │   ├── App.css
 │   ├── App.jsx
 │   ├── index.css
