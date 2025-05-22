@@ -57,13 +57,15 @@ Rick-y-Morty-Cards/
 │   └──Untitled.png
 ├── src/
 │   ├── assets/
-│       └──react.svg
+│   │    └── react.svg
 │   ├── components/
-        ├──LocationInfo.jsx
-        ├──Pagination.jsx
-        └── ResidentCard.jsx
+│   │   ├── LocationInfo.jsx
+│   │   ├── Pagination.jsx
+│   │   └── ResidentCard.jsx
 │   ├── hooks/
+│   │   └──useFetch.js
 │   ├── utils/
+│   │   └──getRandomNumber.js
 │   ├── App.css
 │   ├── App.jsx
 │   ├── index.css
